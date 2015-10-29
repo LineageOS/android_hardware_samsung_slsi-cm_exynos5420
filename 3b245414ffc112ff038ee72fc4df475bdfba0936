@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2577a7_4545eeb2",
+        "filename": "gralloc/gralloc.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 2320
+      },
+      "writtenOn": "2015-10-29T18:07:12Z",
+      "side": 1,
+      "message": "You should update the gralloc header in your device tree instead ...",
+      "range": {
+        "startLine": 128,
+        "startChar": 0,
+        "endLine": 128,
+        "endChar": 1
+      },
+      "revId": "3b245414ffc112ff038ee72fc4df475bdfba0936",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f2577a7_251422a0",
+        "filename": "gralloc/gralloc.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 2320
+      },
+      "writtenOn": "2015-10-29T18:07:12Z",
+      "side": 1,
+      "message": "Update your gralloc header ...",
+      "revId": "3b245414ffc112ff038ee72fc4df475bdfba0936",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
