@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_2eaae784",
+        "filename": "mobicore/common/LogWrapper/log.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-11-03T02:06:41Z",
+      "side": 1,
+      "message": "I think you need spaces before the __VA_ARGS__ parameter here.",
+      "revId": "31c02381c53e9d533662ee8b87bd3bb29d88e36e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
