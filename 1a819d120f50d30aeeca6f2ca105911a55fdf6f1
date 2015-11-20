@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f515b1d_35835a07",
+        "filename": "gralloc/gralloc.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-11-20T05:18:01Z",
+      "side": 1,
+      "message": "I\u0027m not sure it\u0027s safe to move the ion_flags |\u003d statement here. You can end up with ion_flags \u003d ion_flags | ION_EXYNOS_FIMD_VIDEO_MASK | ION_EXYNOS_G2D_WFD_MASK when you wanted ion_flags \u003d ion_flags | ION_EXYNOS_G2D_WFD_MASK only.",
+      "revId": "1a819d120f50d30aeeca6f2ca105911a55fdf6f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
