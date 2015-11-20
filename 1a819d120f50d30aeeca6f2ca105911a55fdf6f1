@@ -16,6 +16,24 @@
       "revId": "1a819d120f50d30aeeca6f2ca105911a55fdf6f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f515b1d_95732e4e",
+        "filename": "gralloc/gralloc.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2015-11-20T05:22:14Z",
+      "side": 1,
+      "message": "I agree, that does look like I screwed up the logic.\n\nI was trying to avoid having too many else / #else combinations in there but maybe we need to make it a mess to keep all the logic right.\n\nSean, can you try to fix the original logic?",
+      "parentUuid": "7f515b1d_35835a07",
+      "revId": "1a819d120f50d30aeeca6f2ca105911a55fdf6f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
