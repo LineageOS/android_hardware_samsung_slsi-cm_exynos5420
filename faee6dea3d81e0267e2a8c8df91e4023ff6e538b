@@ -45,6 +45,30 @@
       "revId": "faee6dea3d81e0267e2a8c8df91e4023ff6e538b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_1b1a736e",
+        "filename": "include/gralloc_priv.h",
+        "patchSetId": 7
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-05-31T19:03:26Z",
+      "side": 0,
+      "message": "GPU crash too",
+      "parentUuid": "5faad753_fb051712",
+      "range": {
+        "startLine": 122,
+        "startChar": 8,
+        "endLine": 123,
+        "endChar": 18
+      },
+      "revId": "faee6dea3d81e0267e2a8c8df91e4023ff6e538b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
