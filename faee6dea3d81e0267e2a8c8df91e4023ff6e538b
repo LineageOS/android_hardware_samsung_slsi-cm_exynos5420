@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5faad753_5b0f8b36",
+        "filename": "gralloc/framebuffer.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 7155
+      },
+      "writtenOn": "2016-06-01T08:35:43Z",
+      "side": 0,
+      "message": "If we don\u0027t set this flag, the buffers will be copied without HWC (as seen below).\nSince we don\u0027t have a copybit HAL, this is ought to be slow..\nThe manta (aosp) repos also set this flag and enable HWC based page flipping, I don\u0027t see why we shouldn\u0027t use it..\n\nI set the flag (HWC_EXIST) in a separate commit in my Exynos 5433 repo, so you might want to do the same here (Sean/ShevT).",
+      "parentUuid": "5faad753_9b06631c",
+      "range": {
+        "startLine": 52,
+        "startChar": 8,
+        "endLine": 52,
+        "endChar": 19
+      },
+      "revId": "faee6dea3d81e0267e2a8c8df91e4023ff6e538b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_fb20b7ae",
         "filename": "include/gralloc_priv.h",
         "patchSetId": 7
