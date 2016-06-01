@@ -25,6 +25,23 @@
     },
     {
       "key": {
+        "uuid": "5faad753_fb20b7ae",
+        "filename": "include/gralloc_priv.h",
+        "patchSetId": 7
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 7155
+      },
+      "writtenOn": "2016-06-01T08:31:18Z",
+      "side": 0,
+      "message": "This needs to be adjusted to fix camera (sNumInts).\nOne of you guys (Sean/ShevT) has to disassemble the stock camera libs and get the correct value.\nLook at my Exynos 5433 repo, one of the last commits there describes the procedure on how to do this.",
+      "revId": "faee6dea3d81e0267e2a8c8df91e4023ff6e538b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_fb051712",
         "filename": "include/gralloc_priv.h",
         "patchSetId": 7
@@ -60,6 +77,30 @@
       "side": 0,
       "message": "GPU crash too",
       "parentUuid": "5faad753_fb051712",
+      "range": {
+        "startLine": 122,
+        "startChar": 8,
+        "endLine": 123,
+        "endChar": 18
+      },
+      "revId": "faee6dea3d81e0267e2a8c8df91e4023ff6e538b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_db1b7b7e",
+        "filename": "include/gralloc_priv.h",
+        "patchSetId": 7
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 7155
+      },
+      "writtenOn": "2016-06-01T08:31:18Z",
+      "side": 0,
+      "message": "This code is not the issue, the defaults are fine.\nThe handle validation is what kills it.",
+      "parentUuid": "5faad753_1b1a736e",
       "range": {
         "startLine": 122,
         "startChar": 8,
